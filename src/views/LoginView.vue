@@ -28,7 +28,7 @@ const submit = () => {
   <LayoutGuest>
     <SectionFullScreen v-slot="{ cardClass }" bg="purplePink">
       <CardBox :class="cardClass" is-form @submit.prevent="submit">
-        <FormField label="Login" help="Please enter your login">
+        <FormField label="用户名" help="请输入您的用户名">
           <FormControl
             v-model="form.login"
             :icon="mdiAccount"
@@ -37,7 +37,7 @@ const submit = () => {
           />
         </FormField>
 
-        <FormField label="Password" help="Please enter your password">
+        <FormField label="密码" help="请输入您的密码">
           <FormControl
             v-model="form.pass"
             :icon="mdiAsterisk"
@@ -50,14 +50,14 @@ const submit = () => {
         <FormCheckRadio
           v-model="form.remember"
           name="remember"
-          label="Remember"
+          label="记住我"
           :input-value="true"
         />
 
         <template #footer>
           <BaseButtons>
-            <BaseButton type="submit" color="info" label="Login" />
-            <BaseButton to="/dashboard" color="info" outline label="Back" />
+            <BaseButton type="submit" color="info" label="登录" />
+            <BaseButton to="/dashboard" color="info" outline label="返回" />
           </BaseButtons>
         </template>
       </CardBox>

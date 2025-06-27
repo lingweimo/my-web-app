@@ -17,57 +17,57 @@ export default [
   {
     to: '/dashboard',
     icon: mdiMonitor,
-    label: 'Dashboard'
+    label: '仪表盘'
   },
   {
     to: '/tables',
-    label: 'Tables',
+    label: '表格',
     icon: mdiTable
   },
   {
     to: '/forms',
-    label: 'Forms',
+    label: '表单',
     icon: mdiSquareEditOutline
   },
   {
     to: '/ui',
-    label: 'UI',
+    label: '界面组件',
     icon: mdiTelevisionGuide
   },
   {
     to: '/responsive',
-    label: 'Responsive',
+    label: '响应式布局',
     icon: mdiResponsive
   },
   {
     to: '/',
-    label: 'Styles',
+    label: '样式',
     icon: mdiPalette
   },
   {
     to: '/profile',
-    label: 'Profile',
+    label: '个人资料',
     icon: mdiAccountCircle
   },
   {
     to: '/login',
-    label: 'Login',
+    label: '登录',
     icon: mdiLock
   },
   {
     to: '/error',
-    label: 'Error',
+    label: '错误页面',
     icon: mdiAlertCircle
   },
   {
-    label: 'Dropdown',
+    label: '下拉菜单',
     icon: mdiViewList,
     menu: [
       {
-        label: 'Item One'
+        label: '选项一'
       },
       {
-        label: 'Item Two'
+        label: '选项二'
       }
     ]
   },
@@ -79,7 +79,7 @@ export default [
   },
   {
     href: 'https://github.com/justboil/admin-one-react-tailwind',
-    label: 'React version',
+    label: 'React版本',
     icon: mdiReact,
     target: '_blank'
   }

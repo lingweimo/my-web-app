@@ -15,22 +15,22 @@ import {
 export default [
   {
     icon: mdiMenu,
-    label: 'Sample menu',
+    label: '菜单示例',
     menu: [
       {
         icon: mdiClockOutline,
-        label: 'Item One'
+        label: '选项一'
       },
       {
         icon: mdiCloud,
-        label: 'Item Two'
+        label: '选项二'
       },
       {
         isDivider: true
       },
       {
         icon: mdiCrop,
-        label: 'Item Last'
+        label: '最后选项'
       }
     ]
   },
@@ -39,30 +39,30 @@ export default [
     menu: [
       {
         icon: mdiAccount,
-        label: 'My Profile',
+        label: '我的资料',
         to: '/profile'
       },
       {
         icon: mdiCogOutline,
-        label: 'Settings'
+        label: '设置'
       },
       {
         icon: mdiEmail,
-        label: 'Messages'
+        label: '消息'
       },
       {
         isDivider: true
       },
       {
         icon: mdiLogout,
-        label: 'Log Out',
+        label: '退出登录',
         isLogout: true
       }
     ]
   },
   {
     icon: mdiThemeLightDark,
-    label: 'Light/Dark',
+    label: '明暗主题',
     isDesktopNoLabel: true,
     isToggleLightDark: true
   },
@@ -75,14 +75,14 @@ export default [
   },
   {
     icon: mdiReact,
-    label: 'React version',
+    label: 'React版本',
     isDesktopNoLabel: true,
     href: 'https://github.com/justboil/admin-one-react-tailwind',
     target: '_blank'
   },
   {
     icon: mdiLogout,
-    label: 'Log out',
+    label: '退出登录',
     isDesktopNoLabel: true,
     isLogout: true
   }

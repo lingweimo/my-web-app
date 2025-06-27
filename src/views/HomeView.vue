@@ -44,12 +44,12 @@ const transactionBarItems = computed(() => mainStore.history)
 <template>
   <LayoutAuthenticated>
     <SectionMain>
-      <SectionTitleLineWithButton :icon="mdiChartTimelineVariant" title="Overview" main>
+      <SectionTitleLineWithButton :icon="mdiChartTimelineVariant" title="概览" main>
         <BaseButton
           href="https://github.com/justboil/admin-one-vue-tailwind"
           target="_blank"
           :icon="mdiGithub"
-          label="Star on GitHub"
+          label="在GitHub上加星标"
           color="contrast"
           rounded-full
           small
@@ -63,7 +63,7 @@ const transactionBarItems = computed(() => mainStore.history)
           color="text-emerald-500"
           :icon="mdiAccountMultiple"
           :number="512"
-          label="Clients"
+          label="客户"
         />
         <CardBoxWidget
           trend="12%"
@@ -71,17 +71,17 @@ const transactionBarItems = computed(() => mainStore.history)
           color="text-blue-500"
           :icon="mdiCartOutline"
           :number="7770"
-          prefix="$"
-          label="Sales"
+          prefix="￥"
+          label="销售额"
         />
         <CardBoxWidget
-          trend="Overflow"
+          trend="溢出"
           trend-type="alert"
           color="text-red-500"
           :icon="mdiChartTimelineVariant"
           :number="256"
           suffix="%"
-          label="Performance"
+          label="性能"
         />
       </div>
 
@@ -112,7 +112,7 @@ const transactionBarItems = computed(() => mainStore.history)
 
       <SectionBannerStarOnGitHub class="mt-6 mb-6" />
 
-      <SectionTitleLineWithButton :icon="mdiChartPie" title="Trends overview">
+      <SectionTitleLineWithButton :icon="mdiChartPie" title="趋势概览">
         <BaseButton :icon="mdiReload" color="whiteDark" @click="fillChartData" />
       </SectionTitleLineWithButton>
 
@@ -122,10 +122,10 @@ const transactionBarItems = computed(() => mainStore.history)
         </div>
       </CardBox>
 
-      <SectionTitleLineWithButton :icon="mdiAccountMultiple" title="Clients" />
+      <SectionTitleLineWithButton :icon="mdiAccountMultiple" title="客户" />
 
       <NotificationBar color="info" :icon="mdiMonitorCellphone">
-        <b>Responsive table.</b> Collapses on mobile
+        <b>响应式表格。</b> 在移动设备上自动折叠
       </NotificationBar>
 
       <CardBox has-table>

@@ -5,7 +5,7 @@ import Home from '@/views/HomeView.vue'
 const routes = [
   {
     meta: {
-      title: 'Select style'
+      title: '选择样式'
     },
     path: '/',
     name: 'style',
@@ -15,7 +15,7 @@ const routes = [
     // Document title tag
     // We combine it with defaultDocumentTitle set in `src/main.js` on router.afterEach hook
     meta: {
-      title: 'Dashboard'
+      title: '仪表盘'
     },
     path: '/dashboard',
     name: 'dashboard',
@@ -23,7 +23,7 @@ const routes = [
   },
   {
     meta: {
-      title: 'Tables'
+      title: '表格'
     },
     path: '/tables',
     name: 'tables',
@@ -31,7 +31,7 @@ const routes = [
   },
   {
     meta: {
-      title: 'Forms'
+      title: '表单'
     },
     path: '/forms',
     name: 'forms',
@@ -39,7 +39,7 @@ const routes = [
   },
   {
     meta: {
-      title: 'Profile'
+      title: '个人资料'
     },
     path: '/profile',
     name: 'profile',
@@ -47,7 +47,7 @@ const routes = [
   },
   {
     meta: {
-      title: 'Ui'
+      title: '界面组件'
     },
     path: '/ui',
     name: 'ui',
@@ -55,7 +55,7 @@ const routes = [
   },
   {
     meta: {
-      title: 'Responsive layout'
+      title: '响应式布局'
     },
     path: '/responsive',
     name: 'responsive',
@@ -63,7 +63,7 @@ const routes = [
   },
   {
     meta: {
-      title: 'Login'
+      title: '登录'
     },
     path: '/login',
     name: 'login',
@@ -71,7 +71,7 @@ const routes = [
   },
   {
     meta: {
-      title: 'Error'
+      title: '错误'
     },
     path: '/error',
     name: 'error',
